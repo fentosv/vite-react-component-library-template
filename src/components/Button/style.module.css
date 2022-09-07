@@ -1,0 +1,28 @@
+.button {
+    padding: 15px 25px;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.button:disabled {
+    background-color: #865e86;
+}
+
+.button:enabled:active {
+    transform: scale(0.96);
+}
+
+@media (hover: hover) {
+    .button:hover:not(:disabled) {
+        filter: brightness(0.8);
+    }
+}
+
+.rounded {
+    border: 2px solid black;
+    border-radius: 0.6rem;
+}
+
+.square {
+    border: 2px solid black;
+}

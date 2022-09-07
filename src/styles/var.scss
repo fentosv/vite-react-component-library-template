@@ -1,0 +1,13 @@
+@use '@sass_settings/sizes.scss';
+
+@font-face {
+    font-family: opensans;
+    src: url(../../public/fonts/open_sans/OpenSans-Regular.ttf);
+}
+
+:root {
+    --color-dark-1: #1e1e1e;
+    --color-light-1: #ffff;
+    --color-brand-primary-1: rgba(139, 67, 228, 0.734);
+    --color-brand-secondary-1: seagreen;
+}

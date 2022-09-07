@@ -1,0 +1,79 @@
+{
+  "name": "vite-react-component-library-template",
+  "version": "0.0.4",
+  "description": "Vite template for building a React library component. TypeScript, SASS and Storybook.",
+  "author": {
+    "name": "Fentos",
+    "email": "fentos.dev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fentosv/vite-react-component-library-template.git"
+  },
+  "homepage": "https://github.com/fentosv/vite-react-component-library-template",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "github-first-deploy": "node dev/first-deploy.js",
+    "github-update": "node dev/github-update.js"
+  },
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "keywords": [
+    "vite",
+    "template",
+    "react",
+    "library",
+    "react-component",
+    "react component",
+    "storybook",
+    "sass",
+    "fentos",
+    "fentosv"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-vite": "^0.2.2",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/argparse": "^2.0.10",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "babel-loader": "^8.2.5",
+    "classnames-creator": "^1.0.6",
+    "postcss-modules": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.54.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vite-plugin-dts": "^1.4.1"
+  },
+  "dependencies": {
+    "classnames-creator": "^1.0.6",
+    "vite-react-component-library-template": "^0.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
