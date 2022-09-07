@@ -1,3 +1,5 @@
+WIP 🛠
+
 # vite-react-component-library-template
 
 > Vite template for building a React library component. TypeScript, SASS and Storybook.
@@ -7,9 +9,8 @@
 - Path aliases config in Vite/TS
 - React app to preview the component 
 
-WIP 🛠
 
-**TODO**
+### TODO LIST 📝
 
 - Good docs, obviously
 - Add storybook
