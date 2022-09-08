@@ -18,6 +18,9 @@ WIP 🛠
 - Css injection build -> Vite build doesn't load SASS module. Unable to find solution, no workaround worked
 
 _CSS injection build: Paused until working solution_
+
+https://github.com/vitejs/vite/issues/1579
+
 > v0.0.1 -> CSS module (Button.module.css) -> Not working
 >
 > v0.0.2 -> SCSS module (Button.module.scss) -> Not working
